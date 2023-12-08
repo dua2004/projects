@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="form.css" />
+  <title>form</title>
+  </head>
+    <section class="container">
+
+      <header>Application Form</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Applicant name</label>
+          <input type="text" placeholder="Enter full name" required />
+        </div>
+        <div class="input-box address">
+          <label>Event</label>
+          <input name='section' list='scripts' placeholder='select one'>
+          <datalist id='scripts'>
+            <option value='Wedding'>
+            <option value='Birthday'>
+            <option value='Mehndi'>
+            <option value='Farewell party'>
+            <option value='School function'>
+            <option value='Qawali night'>
+          </datalist>
+        </div>
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+          <div class="input-box">
+            <label>Event Date</label>
+            <input type="date" placeholder="Enter Event date" required />
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Packages</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Package 1</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Package 2</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">Package 3</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Venue</label>
+          <input name='section' list='script' placeholder='select one'>
+          <datalist id='script'>
+            <option value='gulf club'>
+            <option value='martine'>
+            <option value='DHA Golf Club'>
+            <option value='DHA Sunset Club'>
+            <option value='DHA Creek Club'>
+            <option value='Other DHA Clubs'>
+            <option value='PALPA'>
+            <option value='PAF Museum'>
+            <option value='Bahria Auditorium'>
+            <option value='Maritime'>
+            <option value='National Sailing club'>
+            <option value='Badr Banquet'>
+            <option value='Beach View Club'>
+            <option value='Royal Rodale'>
+          </datalist>
+        </div>
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
+
